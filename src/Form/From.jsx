@@ -37,8 +37,4 @@ const Form = () =>{
 } 
 export default Form;
 
-
-
-
-
 // form using map method show table stored data using array of object
