@@ -12,6 +12,10 @@ import Final from "./UseEffect/Final";
 import Banner from "./Components/Banner";
 import Product from "./Pages/Product";
 import Valid from "./Form/Valid";
+import Child from "./Props/Child";
+import Parent from "./Props/Parent";
+import Letterpage from "./Form/Letterpage";
+import Formpage from "./Form/Formpage";
 
 const App = () => {
     return (
@@ -20,15 +24,19 @@ const App = () => {
            {/* <Banner/> */}
         {/* <Output /> */}
         {/* <Landing /> */}
-                 {/* <Navbar/>
+                  <Navbar/>
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/login" element={<Login/>} />
                     <Route path="/contact" element={<Contact/>} />
                     <Route path="/product" element={<Product/>} />
-               </Routes>  */}
-               <Valid />
+                    <Route path="/form" element={<Formpage/>} />
+                    <Route path="/letter" element={<Letterpage/>} />
+               </Routes>  
+               {/* <Valid /> */}
+               {/* <Child /> */}
+               {/* <Parent /> */}
               
         </>
     );

@@ -34,6 +34,18 @@ const Navbar = () => {
             >
                 Login
             </Link>
+            <Link
+                className="px-4 py-2 rounded text-gray-700 font-semibold hover:bg-blue-500 hover:text-white transition-colors duration-200"
+                to="/form"
+            >
+                Form
+            </Link>
+            <Link
+                className="px-4 py-2 rounded text-gray-700 font-semibold hover:bg-blue-500 hover:text-white transition-colors duration-200"
+                to="/letter"
+            >
+                Letter
+            </Link>
         </nav>
         </>
     )
