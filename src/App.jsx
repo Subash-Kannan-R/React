@@ -16,7 +16,8 @@ import Child from "./Props/Child";
 import Parent from "./Props/Parent";
 import Letterpage from "./Form/Letterpage";
 import Formpage from "./Form/Formpage";
-
+import Listuser from "./Fetchapi/Listuser";
+import Productlist from "./Fetchapi/Productlist";
 const App = () => {
     return (
         <>
@@ -24,7 +25,7 @@ const App = () => {
            {/* <Banner/> */}
         {/* <Output /> */}
         {/* <Landing /> */}
-                  <Navbar/>
+                  {/* <Navbar/>
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
@@ -33,10 +34,13 @@ const App = () => {
                     <Route path="/product" element={<Product/>} />
                     <Route path="/form" element={<Formpage/>} />
                     <Route path="/letter" element={<Letterpage/>} />
-               </Routes>  
+               </Routes>   */}
                {/* <Valid /> */}
                {/* <Child /> */}
                {/* <Parent /> */}
+               <Listuser />
+               {/* <Productlist /> */}
+               
               
         </>
     );
