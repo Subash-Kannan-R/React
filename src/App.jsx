@@ -1,5 +1,5 @@
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Outlet } from "react-router-dom";
 import Landing from "./Pages/Landing";
 import "./index.css";
 import About from "./Pages/About";
@@ -18,6 +18,10 @@ import Letterpage from "./Form/Letterpage";
 import Formpage from "./Form/Formpage";
 import Listuser from "./Fetchapi/Listuser";
 import Productlist from "./Fetchapi/Productlist";
+import Findrange from "./Fetchapi/Findrange";
+import Ref from "./UseRef/Ref";
+import Example from "./UseRef/Example";
+import Memo from "./Usememo/Memo";
 const App = () => {
     return (
         <>
@@ -38,8 +42,12 @@ const App = () => {
                {/* <Valid /> */}
                {/* <Child /> */}
                {/* <Parent /> */}
-               <Listuser />
+               {/* <Listuser /> */}
                {/* <Productlist /> */}
+               {/* <Findrange /> */}
+               {/* <Ref/> */}
+               {/* <Example/> */}
+               {/* <Memo /> */}
                
               
         </>
